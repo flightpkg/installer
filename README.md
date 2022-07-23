@@ -1,31 +1,25 @@
-# nextauri
+# flightpkg - Installer
 
-Nextjs with Tauri starter
+This website is built using Tauri, a frontend-independent application framework.
 
-this project showcase how to implement nextjs with tauri
 
-## installation
+<hr/>
 
-clone this repository.
+## ‍👨🏽‍💻 What is flightpkg?
 
-you have access to multiple npm command:
-- start next development server
-```sh
-npm run next dev
-```
-- build src-next directory for production
-```sh
-npm run next-build
-```
-- export the production build to dist directory
-```sh
-npm run next-export
-```
-- will run next-build and next-export
-```sh
-npm run render-dist
-```
-- standard command to run tauri in development.
-```sh
-npm run tauri dev
-```
+[flightpkg](https://www.flightpkg.js.org/) is a CLI developed to help developers with all their package management needs.
+
+To install flightpkg, download the latest release from Releases on GitHub. 
+
+## 📃 Contributing
+
+Thanks for your interest on our project. Take a moment to read our guidelines:
+
+- [Contributing](https://flightpkg.js.org/docs/community/contributing)
+- [Code of Conduct](https://flightpkg.js.org/docs/community/code-of-conduct)
+
+
+## 📃 License
+
+MIT © [flightpkg](https://flightpkg.js.org/)
+
