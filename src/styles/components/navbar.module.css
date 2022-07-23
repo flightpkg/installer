@@ -1,0 +1,17 @@
+.navbar {
+    background-color: var(--blue);
+    display: flex;
+    align-items: center;
+    height: 100px;
+    color: #fff;
+    justify-content: space-evenly;
+}
+
+.navbar .socials {
+    margin-top: -.025rem;
+}
+.navbar .socials a {
+    font-size: 30px;
+    color: #fff;
+    
+}

@@ -1,0 +1,40 @@
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 6.5rem;
+  margin-left: 4rem;
+}
+
+.main .left h1 {
+  font-size: 2.875rem;
+  font-family: "MonumentExtendedReg";
+  margin-bottom: 1rem;
+}
+.main .left p {
+  font-size: 1.15rem;
+  font-family: "MonumentExtendedReg";
+  margin-bottom: 1.5rem;
+}
+
+.main .left a {
+  background-color: var(--blue);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  font-family: "MonumentExtendedReg";
+  display: flex;
+  align-items: center;
+  width: fit-content;
+}
+
+.main .left a i {
+    margin-left: 1rem;
+    transition: .3s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+
+.main .left a:hover > i {
+  margin-left: 2rem;
+}

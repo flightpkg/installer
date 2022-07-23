@@ -1,0 +1,16 @@
+.parent {
+    --padding: 5px 30px;
+    margin-top: 2rem;
+    width: 300px;
+    border: 2px solid rgba(0, 0, 0, 0.142);
+    border-radius: 50px;
+    overflow: hidden;
+    height: 20px;
+}
+
+
+.parent .child span {
+    opacity: 0;
+    color: #fff;
+    font-family: "MonumentExtendedReg";
+}
