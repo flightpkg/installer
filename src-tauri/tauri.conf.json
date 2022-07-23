@@ -55,13 +55,13 @@
     },
     "windows": [
       {
-        "transparent": true,
+        "transparent": false,
         "decorations": false,
         "fullscreen": false,
         "height": 600,
         "resizable": true,
-        "title": "wsl2-manager",
-        "width": 800
+        "title": "Flightpkg Installer",
+        "width": 1000
       }
     ]
   }
