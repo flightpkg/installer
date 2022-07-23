@@ -1,5 +1,5 @@
 {
-  "name": "wsl2-manager",
+  "name": "@flightpkg/installer",
   "scripts": {
     "tauri": "tauri",
     "next": "next",
