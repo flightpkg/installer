@@ -7,7 +7,7 @@ import { useState } from "react";
 
 export default function Index() {
   // Count
-  const [c, setC] = useState(0);
+  const [c, setC] = useState(0); // set progress percentage
   // If Clicked Install Button
   const [cl, setCl] = useState(false)
 

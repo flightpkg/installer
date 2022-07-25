@@ -12,7 +12,11 @@
   },
   "tauri": {
     "allowlist": {
-      "all": true
+      "all": true,
+      "http": {
+        "all": true, 
+        "request": true
+      }
     },
     "bundle": {
       "active": true,
@@ -29,7 +33,7 @@
         "icons/icon.icns",
         "icons/icon.ico"
       ],
-      "identifier": "com.tauri.dev",
+      "identifier": "com.flightpkg.io",
       "longDescription": "",
       "macOS": {
         "entitlements": null,
@@ -56,10 +60,10 @@
     "windows": [
       {
         "transparent": false,
-        "decorations": false,
+        "decorations": true,
         "fullscreen": false,
         "height": 600,
-        "resizable": true,
+        "resizable": false,
         "title": "Flightpkg Installer",
         "width": 1000
       }
